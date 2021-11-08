@@ -1,0 +1,39 @@
+.footer-style{
+    height: 40vh;
+    width: auto;
+    padding-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border: 1px black solid;
+}
+
+.top {
+    height: 30vh;
+    text-align: center;
+}
+
+.top button {
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.bot {
+    height: 30vh;
+}
+
+.bot ul{
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.bot ul li {
+    margin:0 60px;
+}

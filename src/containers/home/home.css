@@ -1,0 +1,37 @@
+.home-style{
+    width: auto;
+    height: 90vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+
+.left-div{
+    width: 50vw;
+    padding: 40px;
+    padding-left: 40px;
+    height: 75vh;
+    box-sizing: border-box;
+    background-color: #F8F8FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:flex-start
+}
+
+.left-div button {
+
+}
+
+
+.right-div{
+    width: 50vw;
+    height: 75vh;
+    margin-right: 40px;
+    background-image: url("/src/assets/pic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
